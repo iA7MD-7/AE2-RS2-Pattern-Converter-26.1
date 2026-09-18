@@ -1,7 +1,7 @@
 # Contributing
 
 Bug reports and feature requests belong in the
-[issue tracker](https://github.com/iA7MD-7/AE2-RS2-Pattern-Converter-FB-Bug-Reports/issues).
+[issue tracker](https://github.com/iA7MD-7/AE2-RS2-Pattern-Converter-26.1/issues).
 
 ## Pull requests
 

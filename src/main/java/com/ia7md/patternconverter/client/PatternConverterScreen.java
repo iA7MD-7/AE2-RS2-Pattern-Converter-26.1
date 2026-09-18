@@ -51,7 +51,7 @@ import static com.ia7md.patternconverter.client.PCSprites.SIDE_BUTTON_Y;
 import static com.ia7md.patternconverter.client.PCSprites.arrowV;
 
 public class PatternConverterScreen extends AbstractContainerScreen<PatternConverterMenu> {
-    private static final String FALLBACK_ISSUES_URL = "https://github.com/iA7MD-7/AE2-RS2-Pattern-Converter-FB-Bug-Reports/issues";
+    private static final String FALLBACK_ISSUES_URL = "https://github.com/iA7MD-7/AE2-RS2-Pattern-Converter-26.1/issues";
     private static final int SHEET_SIZE = 256;
 
     private static final int GAP_X = 61;

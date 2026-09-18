@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.1 — 2026-09-18
+
+- Bug reports now go to this repository's own issue tracker: https://github.com/iA7MD-7/AE2-RS2-Pattern-Converter-26.1/issues
+  (the GUI's bug button and `issueTrackerURL` point there; the old bug-report repository is retired).
+
 ## 1.0.0 — 2026-09-18
 
 First release, for Minecraft 1.21.1 (NeoForge 21.1) and Minecraft 26.1.2 (NeoForge 26.1),

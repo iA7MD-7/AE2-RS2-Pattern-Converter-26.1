@@ -107,7 +107,7 @@ Same mod, same features; fixes are ported between the two.
 
 ## Contributing
 
-Bug reports and feature requests go to the [issue tracker](https://github.com/iA7MD-7/AE2-RS2-Pattern-Converter-FB-Bug-Reports/issues) — the bug button beside the GUI opens
+Bug reports and feature requests go to the [issue tracker](https://github.com/iA7MD-7/AE2-RS2-Pattern-Converter-26.1/issues) — the bug button beside the GUI opens
 the same page. Pull requests are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
