@@ -10,8 +10,6 @@ each in its own repository.
   Refined Storage 2 and Applied Energistics 2 in both directions, through each mod's own API.
 - Direction detected per pattern, lockable with the arrow button.
 - Per-slot status tint and tooltip explaining exactly why a pattern is waiting or refused.
-- Addon support: AdvancedAE processing patterns, Expanded AE / ExtendedAE, Refined Types ↔
-  Applied Flux (FE) and Ars Énergistique (Source) with a configurable unmappable-resource policy.
 - Automation: sided item handler, batch conversion per work cycle, redstone pulse on completion,
   comparator output, lit front face while working.
 - JEI and EMI categories (EMI on 1.21.1 only).
