@@ -1,0 +1,79 @@
+plugins {
+    id 'java-library'
+    id 'idea'
+    id 'net.neoforged.moddev' version '2.0.147'
+}
+
+version = mod_version
+group = mod_group
+
+base {
+    archivesName = 'ae2-rs2-pattern-converter'
+}
+
+java {
+    toolchain.languageVersion = JavaLanguageVersion.of(25)
+}
+
+neoForge {
+    version = neoforge_version
+
+    parchment {
+        enabled = false
+    }
+
+    runs {
+        client {
+            client()
+            gameDirectory = project.file('run')
+        }
+        server {
+            server()
+            gameDirectory = project.file('run/server')
+        }
+        gameTestServer {
+            type = 'gameTestServer'
+            gameDirectory = project.file('run/gametest')
+            systemProperty 'neoforge.enabledGameTestNamespaces', 'pattern_converter'
+        }
+    }
+
+    mods {
+        pattern_converter {
+            sourceSet sourceSets.main
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly fileTree(dir: 'libs', include: '*.jar')
+}
+
+processResources {
+    def props = [
+            mod_id         : mod_id,
+            mod_name       : mod_name,
+            mod_version    : mod_version,
+            mod_authors    : mod_authors,
+            mod_description: mod_description,
+            rs2_version    : rs2_version,
+            ae2_version    : ae2_version
+    ]
+    inputs.properties props
+    filesMatching('META-INF/neoforge.mods.toml') {
+        expand props
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+jar {
+    exclude 'com/ia7md/patternconverter/gametest/**'
+    exclude 'data/pattern_converter/structure/**'
+}

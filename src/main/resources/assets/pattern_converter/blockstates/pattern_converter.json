@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "facing=north,powered=false": { "model": "pattern_converter:block/pattern_converter" },
+    "facing=south,powered=false": { "model": "pattern_converter:block/pattern_converter", "y": 180 },
+    "facing=west,powered=false":  { "model": "pattern_converter:block/pattern_converter", "y": 270 },
+    "facing=east,powered=false":  { "model": "pattern_converter:block/pattern_converter", "y": 90 },
+    "facing=north,powered=true":  { "model": "pattern_converter:block/pattern_converter_on" },
+    "facing=south,powered=true":  { "model": "pattern_converter:block/pattern_converter_on", "y": 180 },
+    "facing=west,powered=true":   { "model": "pattern_converter:block/pattern_converter_on", "y": 270 },
+    "facing=east,powered=true":   { "model": "pattern_converter:block/pattern_converter_on", "y": 90 }
+  }
+}

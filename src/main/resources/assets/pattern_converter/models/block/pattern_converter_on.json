@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "pattern_converter:block/pattern_converter_top",
+    "bottom": "pattern_converter:block/pattern_converter_bottom",
+    "side": "pattern_converter:block/pattern_converter_side",
+    "front": "pattern_converter:block/pattern_converter_front_on"
+  }
+}

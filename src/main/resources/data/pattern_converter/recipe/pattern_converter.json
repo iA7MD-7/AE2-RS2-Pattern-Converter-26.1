@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "QFQ",
+    "RCA",
+    "QPQ"
+  ],
+  "key": {
+    "Q": "refinedstorage:quartz_enriched_iron",
+    "F": "ae2:fluix_crystal",
+    "R": "refinedstorage:pattern",
+    "A": "ae2:blank_pattern",
+    "C": "refinedstorage:machine_casing",
+    "P": "ae2:calculation_processor"
+  },
+  "result": {
+    "id": "pattern_converter:pattern_converter",
+    "count": 1
+  }
+}

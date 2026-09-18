@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "pattern_converter:block/pattern_converter"
+  }
+}
